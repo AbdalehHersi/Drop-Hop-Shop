@@ -22,7 +22,7 @@ Tag.belongsToMany(Product, {
   through: {
     model: ProductTag,
     unique: false
-  }
+  },
 })
 
 module.exports = {
